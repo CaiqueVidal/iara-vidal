@@ -1,0 +1,45 @@
+.home-container {
+    width: 100%;
+    max-width: 1120px;
+    height: 100vh;
+    margin: 0 auto;
+    
+}
+
+
+/*---------------------*/
+.home-main .wrap {
+    padding: 1.7em;
+    column-count: 3;
+}
+
+.home-main .wrap img {
+    width: 100%;
+    padding: 20px 15px;
+    
+} 
+
+.home-main .wrap img:hover {
+    filter:opacity(40%);
+    transform: scale(1.035);
+}
+
+/*---------------------*/
+
+@media(max-width:650px) {
+    .home-main .wrap{
+        column-count: 2;
+    }
+}
+
+@media(max-width:500px) {
+    .home-main .wrap{
+        column-count: 1;
+    }
+
+    .home-main .wrap img {
+        width: 75%;
+        display: block;
+        margin: 0 auto;
+    }
+}
