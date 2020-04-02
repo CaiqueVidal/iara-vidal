@@ -10,7 +10,7 @@ export default function Header() {
             <nav className="navigation">
                 <ul>
                     <li>
-                        <Link className="back-link" to="/">portfólio</Link>
+                        <Link className="back-link" to="/iara-vidal">portfólio</Link>
                     </li>
                     <div className="circle"></div>
                     <li>

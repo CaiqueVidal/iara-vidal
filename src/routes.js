@@ -18,7 +18,7 @@ export default function Routes() {
     return (
         <BrowserRouter>
             <Switch>
-                <Route path="/" exact component={Home} />
+                <Route path="/iara-vidal" exact component={Home} />
                 <Route path="/sobre" component={Sobre} />
                 <Route path="/project01" component={Project01} />
                 <Route path="/project02" component={Project02} />
